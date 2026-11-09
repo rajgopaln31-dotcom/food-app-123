@@ -1,23 +1,21 @@
-import { configureStore, combineReducers } from '@reduxjs/toolkit';
+import { configureStore } from '@reduxjs/toolkit';
 
-import authReducer from './features/auth/authSlice';
-import restaurantReducer from './features/restaurant/restaurantSlice';
-import cartReducer from './features/cart/cartSlice';
-import addressReducer from './features/address/addressSlice';
-import orderReducer from './features/order/orderSlice';
-import favouriteReducer from './features/favourite/favouriteSlice';
-
-const rootReducer = combineReducers({
-  auth: authReducer,
-  restaurant: restaurantReducer,
-  cart: cartReducer,
-  address: addressReducer,
-  order: orderReducer,
-  favourite: favouriteReducer,
-});
+import authReducer from './slices/authSlice';
+import restaurantReducer from './slices/restaurantSlice';
+import cartReducer from './slices/cartSlice';
+import addressReducer from './slices/addressSlice';
+import orderReducer from './slices/orderSlice';
+import favouriteReducer from './slices/favouriteSlice';
 
 export const store = configureStore({
-  reducer: rootReducer,
+  reducer: {
+    auth: authReducer,
+    restaurant: restaurantReducer,
+    cart: cartReducer,
+    address: addressReducer,
+    order: orderReducer,
+    favourite: favouriteReducer,
+  },
 });
 
 export type RootState = ReturnType<typeof store.getState>;
