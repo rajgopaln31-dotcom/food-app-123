@@ -1,0 +1,6 @@
+.checkout-layout { display: flex; flex-wrap: wrap; gap: 16px; margin-top: 16px; align-items: flex-start; }
+.address-section { flex: 2 1 400px; display: flex; flex-direction: column; gap: 12px; align-items: flex-start; min-width: 0; }
+.summary-section { flex: 1 1 280px; display: flex; flex-direction: column; gap: 12px; min-width: 0; }
+.address-card { display: flex; align-items: center; gap: 4px; padding: 8px 12px; margin-bottom: 12px; }
+.address-card .address-label { flex: 1; margin-right: 0; }
+.address-form { display: flex; flex-direction: column; gap: 16px; padding-top: 8px !important; }

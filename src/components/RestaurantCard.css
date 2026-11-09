@@ -1,0 +1,2 @@
+.restaurant-card .restaurant-image { width: 100%; height: auto; aspect-ratio: 16 / 10; object-fit: cover; }
+.card-title-row { display: flex; justify-content: space-between; align-items: center; gap: 8px; }

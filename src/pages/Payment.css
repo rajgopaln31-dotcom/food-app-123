@@ -1,0 +1,4 @@
+.payment-layout { display: flex; flex-wrap: wrap; gap: 16px; margin-top: 16px; align-items: flex-start; }
+.payment-box { flex: 2 1 380px; padding: 16px; display: flex; flex-direction: column; gap: 16px; min-width: 0; }
+.payment-summary { flex: 1 1 280px; display: flex; flex-direction: column; gap: 12px; min-width: 0; }
+.payment-empty { padding: 24px; display: flex; flex-direction: column; gap: 16px; align-items: flex-start; }

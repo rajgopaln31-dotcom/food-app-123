@@ -1,0 +1,9 @@
+.hero { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; padding: 20px; background: #fff3e0; border-radius: 12px; }
+.hero .location-box { flex: 1 1 180px; }
+.hero .search-box { flex: 3 1 250px; }
+.category-row { display: flex; flex-wrap: wrap; gap: 16px; }
+.category-item { width: 90px; text-align: center; cursor: pointer; }
+.category-item img { width: 80px; height: 80px; border-radius: 50%; object-fit: cover; }
+.banner-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; }
+.banner-grid img { width: 100%; aspect-ratio: 16 / 5; object-fit: cover; border-radius: 12px; cursor: pointer; }
+.food-image { width: 100%; height: auto; aspect-ratio: 16 / 10; object-fit: cover; }

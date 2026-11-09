@@ -1,0 +1,2 @@
+.food-dialog-content { display: flex; flex-direction: column; align-items: flex-start; gap: 8px; }
+.food-dialog-content .dialog-image { width: 100%; aspect-ratio: 16 / 7; object-fit: cover; border-radius: 8px; }

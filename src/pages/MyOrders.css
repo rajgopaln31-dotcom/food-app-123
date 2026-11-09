@@ -1,0 +1,3 @@
+.orders-list { display: flex; flex-direction: column; gap: 12px; margin-top: 16px; }
+.order-card { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 12px; padding: 16px; }
+.orders-empty { padding: 40px 16px; text-align: center; display: flex; flex-direction: column; align-items: center; gap: 16px; }

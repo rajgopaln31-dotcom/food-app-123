@@ -1,0 +1,8 @@
+.cart-layout { display: flex; flex-wrap: wrap; gap: 16px; margin-top: 16px; align-items: flex-start; }
+.cart-items { flex: 2 1 400px; display: flex; flex-direction: column; gap: 12px; min-width: 0; }
+.cart-side { flex: 1 1 280px; display: flex; flex-direction: column; gap: 12px; min-width: 0; }
+.cart-item { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; padding: 12px; }
+.cart-item .cart-image { width: 90px; aspect-ratio: 16 / 10; object-fit: cover; border-radius: 8px; }
+.cart-info { flex: 1 1 150px; }
+.coupon-box { display: flex; flex-wrap: wrap; gap: 8px; padding: 12px; }
+.empty-cart { padding: 40px 16px; text-align: center; display: flex; flex-direction: column; align-items: center; gap: 16px; }
