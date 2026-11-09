@@ -18,5 +18,11 @@ export const store = configureStore({
   },
 });
 
+// Save registered users in LocalStorage
+store.subscribe(() => {
+  const users = store.getState().auth.users;
+  localStorage.setItem('foodie_users', JSON.stringify(users));
+});
+
 export type RootState = ReturnType<typeof store.getState>;
 export type AppDispatch = typeof store.dispatch;
